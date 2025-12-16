@@ -2,21 +2,20 @@ reinitialize
 
 # inladen
 load mutant_protein.pdb, mutant
-load mutant_protein.xtc, mutant
-
 load wildtype_protein.pdb, wt
+align mutant, wt
+
+load mutant_protein.xtc, mutant
 load wildtype_protein.xtc, wt
 
-
 #align/fit
-align mutant, wt
 
 intra_fit mutant
 intra_fit wt
 
 # breng gebied met mutatie in beeld
 sele region, resi 254-258
-#zoom region
+zoom region
 show licorice, region
 
 
