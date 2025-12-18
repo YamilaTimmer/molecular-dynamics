@@ -28,12 +28,12 @@ set_view (\
 
 
 # maak plaatje (.png)
-ray 1586, 683, async=1
-png rmsf_wt_mutant.png
+#ray 1586, 683, async=1
+#png rmsf_wt_mutant.png
 
 # maak filmpje (gif)
-set ray_trace_mode, 1
-set antialias, 2
-set movie_fps, 30
-mset 1 x300
-mdo 1:300, roll 1.2
+#set ray_trace_mode, 1
+#set antialias, 2
+#set movie_fps, 30
+#mset 1 x300
+#mdo 1:300, roll 1.2
