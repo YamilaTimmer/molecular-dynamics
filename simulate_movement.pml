@@ -22,17 +22,3 @@ color marine, domain1
 color purple, domain2
 color blue, domain3
 
-# breng gebied met mutatie in beeld
-#sele region, resi 254-258
-#zoom region
-#show licorice, region
-
-
-#stel kijkhoek in voor plek mutatie (get_view/set_view)
-
-# maak plaatje (.png)
-#png image.png
-
-
-#maak filmpje (.mp4)
-
