@@ -13,12 +13,11 @@ load wildtype_protein.xtc, wt
 intra_fit mutant
 intra_fit wt
 
+select SH3, resi 91-152
+select SH2, resi 158-255
+select kinase, resi 277-530
 
-select domain1, resi 91-152
-select domain2, resi 158-255
-select domain3, resi 277-530
-
-color marine, domain1
-color purple, domain2
-color blue, domain3
+color marine, SH3
+color purple, SH2
+color blue, kinase
 
